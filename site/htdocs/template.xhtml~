@@ -25,14 +25,12 @@
 
 h1{
 	font-family: 'Heading Font 1';
-	color: #FFFFFF;
 	font-size: 2.5em;
 	padding:  0.6em 0em 0.5em 1.7em;
 }
 
 h1 .subheading{
 	font-family: 'Heading font 2';
-	color: #EFD0FF;
 	font-size: 0.7em;
 	margin-top: 0.5em;
 	margin-left: 1em;
@@ -48,6 +46,7 @@ h1 .subheading{
 	width: 100%;
 	padding: 2000px 200px 0px 200px;
 	background-color: #013353;
+	color: #FFFFFF;
 	height: 140px;
 	position: relative;
 	top: -2028px;
