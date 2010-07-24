@@ -57,13 +57,13 @@ h1 .subheading{
 	left: -200px;
  }
  div.rotate{
-	-webkit-transform: rotateZ(-1.0deg);
-	-moz-transform: rotate(-1.0deg);
+	-webkit-transform: rotateZ(-1.5deg);
+	-moz-transform: rotate(-1.3deg);
 	overflow-x: hidden;
 }
  div.rotate div{
-	-webkit-transform: rotateZ(1.0deg);
-	-moz-transform: rotate(1.0deg);
+	-webkit-transform: rotateZ(1.5deg);
+	-moz-transform: rotate(1.3deg);
 }
 
 #header-image{
@@ -83,15 +83,8 @@ h1 .subheading{
 		font-size: 2em;
 		padding:  0.5em 0em 0.0em 0.5em;
 	}
-#heading, #heading div.rotate {
-	position: static;
-	padding: 0px;
-	top: 0px;
-	left: 0px;
-}
   #heading{
 	padding-bottom: 35px;
-	
  }
 #heading div.rotate{
 	-webkit-transform: rotateZ(-4.0deg);
@@ -129,6 +122,12 @@ h1 .subheading{
 		font-family: 'Arial', serif;
 		font-size: 0.8em;
 	}
+#heading, #heading div.rotate {
+	position: static;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+}
 	#heading div.rotate{
 		height: auto;
 	-webkit-transform: rotateZ(0deg);
