@@ -25,39 +25,44 @@
 
 h1{
 	font-family: 'Heading Font 1';
+	color: #FFFFFF;
 	font-size: 2.5em;
-	padding:  0.6em 0em 0.5em 1.7em;
+	padding:  0.5em 0em 0.1em 1.7em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 0.8em;
 }
 
 h1 .subheading{
 	font-family: 'Heading font 2';
+	color: #EFD0FF;
 	font-size: 0.7em;
-	margin-top: 0.5em;
 	margin-left: 1em;
 }
 
   #heading{
 	width: 100%;
-	height: 140px;
-	overflow: hidden;
+	overflow-x: hidden;
+	position: absolute;
+	top: -400px;
  }
 
   #heading div.rotate{
 	width: 100%;
-	padding: 2000px 200px 0px 200px;
+	padding: 400px 200px 0px 200px;
 	background-color: #013353;
-	color: #FFFFFF;
-	height: 140px;
+	height: 120px;
 	position: relative;
-	top: -2028px;
 	left: -200px;
  }
  div.rotate{
-	-webkit-transform: rotateZ(-1.5deg);
-	overflow: hidden;
+	-webkit-transform: rotateZ(-1.0deg);
+	-moz-transform: rotate(-1.0deg);
+	overflow-x: hidden;
 }
  div.rotate div{
-	-webkit-transform: rotateZ(1.5deg);
+	-webkit-transform: rotateZ(1.0deg);
+	-moz-transform: rotate(1.0deg);
 }
 
 #header-image{
@@ -68,7 +73,7 @@ h1 .subheading{
   </style>
 </head>
 <body>
-<div id="heading"><div class="rotate"><div><img src="images/backimage1.jpg" width="320" height="120" id="header-image" /><h1>International house <div class="subheading">Info screen manager</div></h1></div></div>
+<div id="heading"><div class="rotate"><div><img src="images/backimage1.jpg" width="320" height="120" id="header-image" /><h1>International house<br /><span class="subheading">Info screen manager</span></h1></div></div>
 
 </div>
 </body>
